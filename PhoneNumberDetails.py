@@ -15,7 +15,7 @@ root.geometry("365x584+200+100")
 root.resizable(False,False)
 
 def track():
-	entry_number=entry.get()
+	entry_number=entry.get(17877189728)
 	number=phonenumbers.parse(entry_number)
 	# country
 	locate=geocoder.description_for_number(number, 'en')
